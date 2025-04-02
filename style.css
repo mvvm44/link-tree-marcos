@@ -19,8 +19,9 @@ div {
     background-color: var(--dark-grey);
     width: 384px;
     text-align: center;
-    padding: 40px;
+    padding: 35px;
     color: var(--white);
+    border-radius: 12px;
 }
 
 img {
@@ -45,4 +46,33 @@ ul, li {
 strong {
     color:var(--neon-green);
     font-size: 14px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+p {
+    margin-block: 24px;
+    font-size: 14px;
+}
+
+a {
+    background-color: var(--grey);
+    color: var(--white);
+    margin-bottom: 16px;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+a:hover {
+    background-color: var(--neon-green);
+    color: var(--dark-grey);
+    transition: 0.4s;
 }
